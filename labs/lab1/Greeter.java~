@@ -1,0 +1,16 @@
+/************************
+  * Brian Capps
+  * 9/18/08
+  * OH HAI!?!
+  **********************/
+public class Greeter
+{
+  private name;
+  public Greeter()
+  {
+    name = "World";
+  }
+  public Greeter(String n)
+  {
+    name = n;
+  }

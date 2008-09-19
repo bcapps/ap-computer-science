@@ -1,0 +1,22 @@
+/************************
+  * Brian Capps
+  * 9/18/08
+  * BUGSSS?!!?
+  **********************/ 
+public class Bug
+{
+  private int position;
+  private int direction; //1 is right, -1 is left
+  
+  public Bug(int pos)
+  {
+    position = pos;
+    direction = 1;
+  }
+  public void turn()
+  {
+    direction = -1*direction;
+  }
+  public void move(int distance)
+  {
+    pos += 
