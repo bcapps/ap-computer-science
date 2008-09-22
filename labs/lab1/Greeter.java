@@ -5,7 +5,7 @@
   **********************/
 public class Greeter
 {
-  private name;
+  private String name;
   public Greeter()
   {
     name = "World";
@@ -16,10 +16,15 @@ public class Greeter
   }
   public String sayHello()
   {
-    return "Oh hai, "+name;
+    return "Oh hai, "+name+".";
   }
   public String sayGoodbye()
   {
-    return "Don't let the door hit you on the way out, "+name+"-jerk.");
+    return "Don't let the door hit you on the way out, "+name+"-jerk.";
   }
-    refuseHelp
+  public String refuseHelp()
+  {
+    return "I would do that, but it could potentially destroy the world. I have an "+
+      "obligation to all humanity to not help you, "+name+".";
+  }
+}
