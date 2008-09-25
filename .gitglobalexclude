@@ -1,0 +1,4 @@
+*.class
+*~
+.gitignore
+.DS_Store
