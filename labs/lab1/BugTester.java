@@ -11,6 +11,8 @@ public class BugTester
     mattBischoff.move(10);
     mattBischoff.turn();
     mattBischoff.move(1);
-    System.out.println(mattBischoff.getPosition());
+	mattBischoff.turn();
+	mattBischoff.move(2);
+    System.out.println(mattBischoff.getPosition());//should be 11
   }
 }
