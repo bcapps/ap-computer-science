@@ -6,27 +6,44 @@
 public class PrimeGenerator
 {
 	private int num, current;
+	private boolean done;
+	
 	public PrimeGenerator(int n)
 	{
 		num = n;
 		current=1;
+		done = false;
 	}
 	public int nextPrime()
     {
 		current ++;
-		for(int i=2; i<8; i++)
+		while (current<num )
 		{
-			if(current%i == 0 && current!=i )
+			boolean prime = true;
+			for(int j=2; j<current; j++)
 			{
-				if(current<=num)
-					current++;
+				if(current%j == 0)
+				{
+					prime = false;
+				}
 			}
-			else 
-		}//end for
+			if(prime)
+				return current;
+			else
+				current++;
+		}//end while
 		return current;
-    }
+    }//end nextPrime
 	public boolean isDone()
 	{
-		return (current >= num);
-	}
+		int oldCurrent = current;
+		
+		if(nextPrime()>=num)
+			return true;
+		else
+		{
+			current = oldCurrent;
+			return (current >= num);
+		}
+	}//end isDone
 }//end class
