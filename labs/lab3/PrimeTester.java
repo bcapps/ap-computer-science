@@ -1,7 +1,7 @@
 /***************************
  * Brian Capps
  * 10/08/2008
- * Description
+ * Print some Primez
  ****************************/
 import java.util.Scanner;
 
