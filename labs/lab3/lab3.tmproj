@@ -16,7 +16,7 @@
 			<key>filename</key>
 			<string>PrimeGenerator.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-08T14:01:26Z</date>
+			<date>2008-10-09T13:22:52Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -86,9 +86,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>20</integer>
+				<integer>13</integer>
 				<key>line</key>
-				<integer>20</integer>
+				<integer>18</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
