@@ -17,7 +17,7 @@ public class PrimeGenerator
 	public int nextPrime()
     {
 		current ++;
-		while (current<num )
+		while (current<=num )
 		{
 			boolean prime = true;
 			for(int j=2; j<current; j++)
@@ -38,7 +38,7 @@ public class PrimeGenerator
 	{
 		int oldCurrent = current;
 		
-		if(nextPrime()>=num)
+		if(nextPrime()>num)
 			return true;
 		else
 		{
