@@ -20,7 +20,7 @@ public class PrimeGenerator
 		while (current<=num )
 		{
 			boolean prime = true;
-			for(int j=2; j<current; j++)
+			for(int j=2; j<current/2; j++)
 			{
 				if(current%j == 0)
 				{
