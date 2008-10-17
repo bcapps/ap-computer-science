@@ -18,7 +18,10 @@ public class Card
 		try
 		{
 			String kind = "" + Integer.parseInt(cardKind);
-			cardInfo += kind;
+			if (Integer.parseInt(cardKind) < 11)
+				cardInfo += kind;
+			else
+				throw new Exception();
 		}
 		catch(Exception e)
 		{
