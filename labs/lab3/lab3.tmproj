@@ -3,40 +3,46 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Card.java</string>
+	<string>CardTester.java</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>Card.java</string>
+			<string>CardTester.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-17T01:28:43Z</date>
+			<date>2008-10-17T02:27:41Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
+			<string>Card.java</string>
+			<key>lastUsed</key>
+			<date>2008-10-17T02:27:41Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
 			<string>PrimeTester.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-10T14:00:50Z</date>
+			<date>2008-10-17T02:27:34Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>PrimeGenerator.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-10T13:56:12Z</date>
+			<date>2008-10-17T02:27:27Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>FibonacciTester.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-10T13:29:22Z</date>
+			<date>2008-10-17T02:27:21Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>FibonacciGenerator.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-10T13:29:22Z</date>
+			<date>2008-10-17T02:27:15Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
@@ -44,6 +50,36 @@
 	<key>metaData</key>
 	<dict>
 		<key>Card.java</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>30</integer>
+				<key>line</key>
+				<integer>4</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>CardTester.java</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -62,9 +98,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>5</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>16</integer>
+				<integer>0</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
@@ -75,16 +111,16 @@
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>6</integer>
+				<integer>30</integer>
 				<key>line</key>
-				<integer>25</integer>
+				<integer>4</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>5</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>16</integer>
+				<integer>0</integer>
 			</dict>
 		</dict>
 		<key>FibonacciTester.java</key>
@@ -92,42 +128,90 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>5</integer>
+				<integer>0</integer>
 				<key>line</key>
 				<integer>0</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>5</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
 		</dict>
 		<key>PrimeGenerator.java</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>27</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>22</integer>
+				<integer>0</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>30</integer>
+				<key>line</key>
+				<integer>4</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
 		</dict>
 		<key>PrimeTester.java</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>20</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>13</integer>
+				<integer>0</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>30</integer>
+				<key>line</key>
+				<integer>4</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
@@ -137,10 +221,11 @@
 		<string>PrimeGenerator.java</string>
 		<string>PrimeTester.java</string>
 		<string>Card.java</string>
+		<string>CardTester.java</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{194, 145}, {1008, 674}}</string>
+	<string>{{150, 325}, {924, 672}}</string>
 </dict>
 </plist>
