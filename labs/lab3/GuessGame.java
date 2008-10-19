@@ -1,8 +1,10 @@
-/***************************
+/****************************************
  * Brian Capps 
  * 10/18/2008
- * FUN FUN FUN FUN GAME
- ****************************/
+ * FUN FUN FUN FUN GAME - A docile game 
+ * until you realize that it just doesn't 
+ * like you and wats you out of its store.
+ ****************************************/
 import java.util.Random;
 import java.util.Scanner;
 
