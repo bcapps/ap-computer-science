@@ -3,28 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Card.java</string>
+	<string>GuessGame.java</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>CardTester.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-19T00:29:42Z</date>
+			<date>2008-10-19T00:32:43Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
-			<string>Card.java</string>
+			<string>GuessGame.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-19T00:29:42Z</date>
+			<date>2008-10-19T00:32:43Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
+			<string>Card.java</string>
+			<key>lastUsed</key>
+			<date>2008-10-19T00:32:37Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
 			<string>PrimeTester.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-17T02:27:34Z</date>
+			<date>2008-10-19T00:31:47Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -54,14 +60,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>72</integer>
+				<integer>2</integer>
 				<key>line</key>
-				<integer>21</integer>
+				<integer>56</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>CardTester.java</key>
 		<dict>
@@ -137,6 +143,20 @@
 				<integer>0</integer>
 			</dict>
 		</dict>
+		<key>GuessGame.java</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>26</integer>
+				<key>line</key>
+				<integer>36</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>12</integer>
+		</dict>
 		<key>PrimeGenerator.java</key>
 		<dict>
 			<key>caret</key>
@@ -206,10 +226,11 @@
 		<string>PrimeTester.java</string>
 		<string>Card.java</string>
 		<string>CardTester.java</string>
+		<string>GuessGame.java</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{150, 325}, {924, 672}}</string>
+	<string>{{281, 319}, {1032, 668}}</string>
 </dict>
 </plist>

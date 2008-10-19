@@ -49,7 +49,7 @@ public class Card
 		else
 			cardInfo += ", except that the second part you typed in was"+
 			" absolutely wrong. Why don't you learn how to follow directions?!?!";
-	}
+	}//end init()
 	
 	public String getDescription()
 	{
