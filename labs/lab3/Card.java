@@ -19,7 +19,7 @@ public class Card
 		try
 		{
 			String kind = "" + Integer.parseInt(cardKind);
-			if (Integer.parseInt(cardKind) < 11 && Integer.parseInt(cardKind) > 0)
+			if (Integer.parseInt(cardKind) < 11 && Integer.parseInt(cardKind) > 1)
 				cardInfo += kind;
 			else
 				throw new Exception();
