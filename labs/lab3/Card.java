@@ -12,17 +12,18 @@ public class Card
 		cardInfo = new String();
 		init();
 	}
+	
 	public void init()
 	{
 		String cardKind = card.substring(0, card.length()-1);
 		try
 		{
 			String kind = "" + Integer.parseInt(cardKind);
-			if (Integer.parseInt(cardKind) < 11)
+			if (Integer.parseInt(cardKind) < 11 && Integer.parseInt(cardKind) > 0)
 				cardInfo += kind;
 			else
 				throw new Exception();
-		}
+		}//end try
 		catch(Exception e)
 		{
 			if(cardKind.equals("J"))
@@ -35,10 +36,8 @@ public class Card
 				cardInfo += "Ace";
 			else
 				cardInfo += "The first part you typed in was wrong";
-		}
-		
+		}//end catch
 		String cardType = card.substring(card.length()-1);
-		//hearts, spades, clubs, diamonds
 		if(cardType.equals("S"))
 			cardInfo += " of Spades";
 		else if(cardType.equals("H"))
@@ -51,6 +50,7 @@ public class Card
 			cardInfo += ", except that the second part you typed in was"+
 			" absolutely wrong. Why don't you learn how to follow directions?!?!";
 	}
+	
 	public String getDescription()
 	{
 		return cardInfo;
