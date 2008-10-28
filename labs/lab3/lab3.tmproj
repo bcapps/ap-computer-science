@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>GuessGame.java</string>
+	<string>Card.java</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>CardTester.java</string>
+			<string>GuessGame.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-19T00:32:43Z</date>
+			<date>2008-10-20T13:58:21Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
-			<string>GuessGame.java</string>
+			<string>CardTester.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-19T00:32:43Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2008-10-21T14:03:01Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>Card.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-19T00:32:37Z</date>
+			<date>2008-10-28T13:25:21Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>PrimeTester.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-19T00:31:47Z</date>
+			<date>2008-10-21T14:02:49Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>PrimeGenerator.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-17T02:27:27Z</date>
+			<date>2008-10-20T13:58:37Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>FibonacciTester.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-17T02:27:21Z</date>
+			<date>2008-10-20T13:58:36Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>FibonacciGenerator.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-17T02:27:15Z</date>
+			<date>2008-10-20T13:58:34Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
@@ -88,60 +88,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>17</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>4</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>30</integer>
-				<key>line</key>
-				<integer>4</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
 		</dict>
 		<key>FibonacciTester.java</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>11</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>5</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
 		</dict>
 		<key>GuessGame.java</key>
 		<dict>
@@ -155,37 +123,21 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>12</integer>
+			<integer>0</integer>
 		</dict>
 		<key>PrimeGenerator.java</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>19</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>3</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>30</integer>
-				<key>line</key>
-				<integer>4</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
 		</dict>
 		<key>PrimeTester.java</key>
 		<dict>
@@ -194,28 +146,12 @@
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>6</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>30</integer>
-				<key>line</key>
-				<integer>4</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
@@ -231,6 +167,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{281, 319}, {1032, 668}}</string>
+	<string>{{281, 210}, {1032, 668}}</string>
 </dict>
 </plist>
