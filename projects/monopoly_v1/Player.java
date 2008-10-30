@@ -26,11 +26,11 @@ public class Player
 	{
 		name = n;
 	}
-	public String getSpace()
+	public int getSpace()
 	{
 		return space;
 	}
-	public void setSpace(String s)
+	public void setSpace(int s)
 	{
 		space = s;
 	}
@@ -60,7 +60,7 @@ public class Player
 	}
 	public int getPiece()
 	{
-		return piece;
+		return whichPiece;
 	}
 	public int getMoney()
 	{
