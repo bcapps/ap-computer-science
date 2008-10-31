@@ -45,8 +45,8 @@ public class Monopoly
 	}//end main
 	public static void play()
 	{
-		//Die d1 = new Die(6);
-		//Die d2 = new Die(6);
+		Die d1 = new Die(6);
+		Die d2 = new Die(6);
 		int r1 = d1.nextRoll();
 		int r2 = d2.nextRoll();
 		int rolled = (r1+r2);
