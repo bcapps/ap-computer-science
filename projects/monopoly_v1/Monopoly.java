@@ -45,15 +45,35 @@ public class Monopoly
 	}//end main
 	public static void play()
 	{
-		Die d1 = new Die(6);
-		Die d2 = new Die(6);
+		//Die d1 = new Die(6);
+		//Die d2 = new Die(6);
 		int r1 = d1.nextRoll();
 		int r2 = d2.nextRoll();
 		int rolled = (r1+r2);
 		
-		System.out.println("\nYou rolled a "+r1+" and a "+r2+", for a total of "+rolled);
+		if(r1==r2)
+		{
+			brian.addDoubles();
+			System.out.println("\nYou rolled DOUBLES of "+r1+" for a total of "+rolled);
+			if (brian.getDoubles() == 3)
+			{
+				System.out.println("You rolled DOUBLES 3 times in a row.  This makes you a bad person.");
+				System.out.println("Go to JAIL.  Go Directly to JAIL. \nDO NOT PASS GO.  "+
+									"DO NOT COLLECT $200.  DO NOT SAY GOODBYE TO YOUR FAMILY.");
+				brian.resetDoubles();
+				brian.setSpace(10);
+				brian.setInJail(true);
+			}
+		}
+		else
+		{
+			System.out.println("\nYou rolled a "+r1+" and a "+r2+", for a total of "+rolled);
+			brian.resetDoubles();
+		}//end doubles checking
 		
-		brian.movePiece(rolled);
+		if(!brian.isInJail())
+			brian.movePiece(rolled);//move the player the correct # of spaces (if not in jail)
+		
 		if (brian.getSpace() >= 40)
 		{
 			brian.setMoney(200);
@@ -62,6 +82,14 @@ public class Monopoly
 		}
 		else
 			System.out.println("You did not pass GO.");
+		
+		if (brian.getSpace()==30)
+		{
+			System.out.println("Go to JAIL.  Go Directly to JAIL. \nDO NOT PASS GO.  "+
+								"DO NOT COLLECT $200.  DO NOT SAY GOODBYE TO YOUR FAMILY.");
+			brian.setSpace(10);
+			brian.setInJail(true);
+		}
 			
 		System.out.println("You currently have $"+brian.getMoney());	
 		System.out.println("You are on space "+brian.getSpace());

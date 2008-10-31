@@ -51,6 +51,10 @@ public class Player
 	{
 		doubles = 0;
 	}
+	public void setInJail(boolean j)
+	{
+		inJail = j;
+	}
 	public boolean isInJail()
 	{
 		return inJail;
