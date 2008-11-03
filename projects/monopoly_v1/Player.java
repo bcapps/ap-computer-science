@@ -12,7 +12,7 @@ public class Player
 	public Player(String n)
 	{
 		name = n;
-		space = 1;
+		space = 0;
 		money = 0;
 		whichPiece = 1;
 		doubles = 0;
@@ -37,10 +37,7 @@ public class Player
 	public int movePiece(int numSpaces)
 	{
 		space += numSpaces;
-		if(space > 40)
-			space -= 40;
-			
-		return space;//returns the space the player is on after moving
+		return space;
 	}
 	public void addDoubles()
 	{
@@ -53,6 +50,10 @@ public class Player
 	public void resetDoubles()
 	{
 		doubles = 0;
+	}
+	public void setInJail(boolean j)
+	{
+		inJail = j;
 	}
 	public boolean isInJail()
 	{
