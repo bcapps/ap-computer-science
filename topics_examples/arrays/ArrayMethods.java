@@ -8,14 +8,22 @@ public class ArrayMethods
 	public static void main (String [] args)
 	{
 		int a = 5;
-		int evens = new int[10];
+		int[] evens = new int[10];
 		for (int i = 1; i<=10; i++)
-			int evens[i-1] = i*2;
+			evens[i-1] = i*2;
 		
 		System.out.print("BEFORE:\na = "+a+"\n{"+evens[0]);
 		for(int i=1; i<evens.length; i++)
 			System.out.println(", "+evens[i]);
-			
+		System.out.println("}\n\n");
+		
+		doubleNums(a, evens);
+		
+		System.out.println("AFTER:\na = "+a+"\n{"+evens[0]);
+		for (int i=1; i<evens.length; i++)
+			System.out.println(", "+evens[i]);
+		System.out.println("}\n\n");
+		
 		
 	}//end main
 	public static void doubleNums(int b, int[] values)
