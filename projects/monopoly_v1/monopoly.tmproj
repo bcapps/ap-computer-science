@@ -16,7 +16,7 @@
 			<key>filename</key>
 			<string>Monopoly.java</string>
 			<key>lastUsed</key>
-			<date>2008-11-04T14:33:25Z</date>
+			<date>2008-11-05T15:41:43Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -63,7 +63,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>23</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Player.java</key>
 		<dict>
@@ -120,6 +120,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{281, 158}, {920, 625}}</string>
+	<string>{{433, 161}, {920, 625}}</string>
 </dict>
 </plist>
