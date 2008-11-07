@@ -27,7 +27,7 @@ public class Purse
 		if(coins.size()!= otherPurse.coins.size())
 			return false;
 		for(int i= coins.size()-1; i>=0; i--)
-			if(coins.get(i).getName()!=otherPurse.coins.get(i).getName() ||
+			if(!coins.get(i).getName().equals(otherPurse.coins.get(i).getName()) ||
 				coins.get(i).getValue()!=otherPurse.coins.get(i).getValue())
 					return false;
 		return true;
@@ -48,7 +48,8 @@ public class Purse
 	{
 		sort();
 		otherPurse.sort();
-		return (sameContents(otherPurse));
+		Purse p2 = new Purse(otherPurse.coins);
+		return (sameContents(p2));
 	}
 	public void reverse()
 	{
