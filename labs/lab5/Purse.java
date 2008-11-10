@@ -40,7 +40,10 @@ public class Purse
 				for(int j= 0; j<coins.size(); j++)
 				{
 					if(coins.get(i).getValue()>coins.get(j).getValue()&& coins.get(i).getValue()>=maxVal)
+					{
 						coins.add(coins.remove(i));
+						maxVal = coins.get(i).getValue();
+					}
 				}
 		}
 	}
@@ -48,8 +51,7 @@ public class Purse
 	{
 		sort();
 		otherPurse.sort();
-		Purse p2 = new Purse(otherPurse.coins);
-		return (sameContents(p2));
+		return (sameContents(otherPurse));
 	}
 	public void reverse()
 	{

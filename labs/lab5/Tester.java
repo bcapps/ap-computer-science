@@ -20,8 +20,10 @@ public class Tester
 		System.out.println(p);
 		System.out.println(p2);
 		
-		//p2.sort();
-		//System.out.println(p2);
+		p.sort();
+		System.out.println(p);
+		p2.sort();
+		System.out.println(p2);
 		
 		if (p.sameCoins(p2))
 			System.out.println("THE SAME COINS.");
