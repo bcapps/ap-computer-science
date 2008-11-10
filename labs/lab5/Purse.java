@@ -34,7 +34,7 @@ public class Purse
 	}
 	public void sort()
 	{
-		int maxVal = 0;
+		double maxVal = 0.0;
 		for(int i= coins.size()-1; i>=0; i--)
 		{
 				for(int j= 0; j<coins.size(); j++)
