@@ -1,7 +1,7 @@
 /***************************
  * Brian Capps
  * 11/05/2008
- * Description
+ * A Purse to hold coins with some methods to do stuff.
  ****************************/
 
 import java.util.ArrayList;
@@ -32,6 +32,7 @@ public class Purse
 					return false;
 		return true;
 	}
+	//sort() sorts the elements first by value then by String value
 	public void sort()
 	{
 		double maxVal = 0.0;
@@ -57,9 +58,9 @@ public class Purse
 						{
 								coins.add(j, coins.remove(i));
 						}
-					}//elseif
-				}//for
-		}//for
+					}//else if
+				}//for j
+		}//for i
 	}
 	public boolean sameCoins(Purse otherPurse)
 	{
