@@ -1,7 +1,7 @@
 /***************************
  * Brian Capps
  * 11/05/2008
- * Description
+ * A coin object with a name and a value
  ****************************/
 
 public class Coin

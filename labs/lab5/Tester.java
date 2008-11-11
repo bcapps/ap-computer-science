@@ -1,7 +1,7 @@
 /***************************
  * Brian Capps
  * 11/05/2008
- * Description
+ * Tests PURSE.
  ****************************/
 public class Tester
 {
