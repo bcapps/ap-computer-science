@@ -35,17 +35,31 @@ public class Purse
 	public void sort()
 	{
 		double maxVal = 0.0;
+		int hash = 0;
 		for(int i= coins.size()-1; i>=0; i--)
 		{
 				for(int j= 0; j<coins.size(); j++)
 				{
-					if(coins.get(i).getValue()>coins.get(j).getValue()&& coins.get(i).getValue()>=maxVal)
+					if(coins.get(i).getValue()>coins.get(j).getValue()&& coins.get(i).getValue()>maxVal)
 					{
 						coins.add(coins.remove(i));
 						maxVal = coins.get(i).getValue();
-					}
-				}
-		}
+					}//if
+					else if (i!=j && coins.get(i).getValue()==coins.get(j).getValue()&& coins.get(i).getValue()==maxVal)
+					{
+						if (coins.get(i).getName().hashCode()>coins.get(j).getName().hashCode()&&
+							coins.get(i).getName().hashCode()>=hash)
+						{
+								coins.add(coins.remove(i));
+								hash = coins.get(i).getName().hashCode();
+						}
+						else if (coins.get(i).getName().hashCode()<coins.get(j).getName().hashCode())
+						{
+								coins.add(j, coins.remove(i));
+						}
+					}//elseif
+				}//for
+		}//for
 	}
 	public boolean sameCoins(Purse otherPurse)
 	{

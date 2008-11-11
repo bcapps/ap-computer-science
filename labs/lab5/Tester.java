@@ -11,12 +11,16 @@ public class Tester
 		Purse p2 = new Purse();
 		p.addCoin(new Coin("a", 1.0));
 		p.addCoin(new Coin("b", 2.0));
+		p.addCoin(new Coin("e", 3.0));
 		p.addCoin(new Coin("c", 3.0));
 		p.addCoin(new Coin("d", 4.0));
+		
 		p2.addCoin(new Coin("d", 4.0));
 		p2.addCoin(new Coin("a", 1.0));
 		p2.addCoin(new Coin("b", 2.0));
 		p2.addCoin(new Coin("c", 3.0));
+		p2.addCoin(new Coin("e", 3.0));
+		
 		System.out.println(p);
 		System.out.println(p2);
 		
