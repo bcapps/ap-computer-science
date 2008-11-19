@@ -10,19 +10,21 @@
 			<key>filename</key>
 			<string>Die.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-31T06:08:08Z</date>
+			<date>2008-10-31T16:03:52Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>Monopoly.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-31T06:20:10Z</date>
+			<date>2008-10-31T16:25:50Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>Player.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-31T06:20:10Z</date>
+			<date>2008-10-31T16:25:50Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -54,28 +56,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>26</integer>
+				<integer>2</integer>
 				<key>line</key>
-				<integer>28</integer>
+				<integer>48</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>15</integer>
+			<integer>42</integer>
 		</dict>
 		<key>Player.java</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>12</integer>
 				<key>line</key>
-				<integer>16</integer>
+				<integer>55</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>35</integer>
 		</dict>
 		<key>Property.java</key>
 		<dict>
@@ -102,6 +104,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{160, 206}, {1087, 771}}</string>
+	<string>{{58, 245}, {1087, 771}}</string>
 </dict>
 </plist>
