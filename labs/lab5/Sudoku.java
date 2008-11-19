@@ -1,7 +1,7 @@
 /***************************
  * Brian Capps
  * 11/18/2008
- * Description
+ * A Sudoku board
  ****************************/
 public class Sudoku
 {
@@ -16,10 +16,10 @@ public class Sudoku
     }
 	public void initializeBoard ()
     {
-          for (int i = 0; i < ROWS; i++)
-               for (int j = 0; j < COLUMNS; j++)
-               board [i][j] = 0;
-    } // end initializeBoard method
+       	for (int i = 0; i < ROWS; i++)
+       		for (int j = 0; j < COLUMNS; j++)
+           		board [i][j] = 0;
+    }
 
    public boolean setNumber (int row, int col, int num)
    {
@@ -48,25 +48,22 @@ public class Sudoku
 	}
     public String toString()
     {
-          String boardOutput = "\n+-----+-----+-----+";
-          for (int i = 0; i < ROWS; i++)
-          {
-               boardOutput+= "\n|";
-               for (int j = 0; j < COLUMNS; j++)
-               {
-                    if (board[i][j] == 0)
-                         boardOutput += " ";
-                    else
-                         boardOutput += board[i][j];
+     	String boardOutput = "\n+-----+-----+-----+";
+       	for (int i = 0; i < ROWS; i++)
+       	{
+         	boardOutput+= "\n|";
+           	for (int j = 0; j < COLUMNS; j++)
+           	{
+            	if (board[i][j] == 0)
+                	boardOutput += " ";
+                else
+                    boardOutput += board[i][j];
 
-                    if ((j + 1) % 3 == 0)//every third col
-                         boardOutput += "|";
-                    else
-                         boardOutput += " ";
-               }
-               if ((i + 1) % 3 == 0)//every third row
-                    boardOutput += "\n+-----+-----+-----+";
-          }
+				boardOutput += "|";
+           	}
+          	if ((i + 1) % 3 == 0)//every third row
+            	boardOutput += "\n+-----+-----+-----+";
+          }//end for loop
           boardOutput += "\n\n";
 
           return boardOutput;
