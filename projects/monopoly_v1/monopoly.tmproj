@@ -10,13 +10,21 @@
 			<key>filename</key>
 			<string>Die.java</string>
 			<key>lastUsed</key>
+<<<<<<< HEAD:projects/monopoly_v1/monopoly.tmproj
+			<date>2008-10-31T16:03:52Z</date>
+=======
 			<date>2008-11-03T14:39:38Z</date>
+>>>>>>> 55716ef70184547140bc0ecf7499ded13c84e51f:projects/monopoly_v1/monopoly.tmproj
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>Monopoly.java</string>
 			<key>lastUsed</key>
+<<<<<<< HEAD:projects/monopoly_v1/monopoly.tmproj
+			<date>2008-10-31T16:25:50Z</date>
+=======
 			<date>2008-11-05T15:41:43Z</date>
+>>>>>>> 55716ef70184547140bc0ecf7499ded13c84e51f:projects/monopoly_v1/monopoly.tmproj
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -24,7 +32,11 @@
 			<key>filename</key>
 			<string>Player.java</string>
 			<key>lastUsed</key>
+<<<<<<< HEAD:projects/monopoly_v1/monopoly.tmproj
+			<date>2008-10-31T16:25:50Z</date>
+=======
 			<date>2008-11-04T14:33:25Z</date>
+>>>>>>> 55716ef70184547140bc0ecf7499ded13c84e51f:projects/monopoly_v1/monopoly.tmproj
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -58,27 +70,44 @@
 				<key>column</key>
 				<integer>2</integer>
 				<key>line</key>
+<<<<<<< HEAD:projects/monopoly_v1/monopoly.tmproj
+				<integer>48</integer>
+=======
 				<integer>19</integer>
+>>>>>>> 55716ef70184547140bc0ecf7499ded13c84e51f:projects/monopoly_v1/monopoly.tmproj
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
+<<<<<<< HEAD:projects/monopoly_v1/monopoly.tmproj
+			<integer>42</integer>
+=======
 			<integer>10</integer>
+>>>>>>> 55716ef70184547140bc0ecf7499ded13c84e51f:projects/monopoly_v1/monopoly.tmproj
 		</dict>
 		<key>Player.java</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
+<<<<<<< HEAD:projects/monopoly_v1/monopoly.tmproj
+				<integer>12</integer>
+				<key>line</key>
+				<integer>55</integer>
+=======
 				<integer>17</integer>
 				<key>line</key>
 				<integer>18</integer>
+>>>>>>> 55716ef70184547140bc0ecf7499ded13c84e51f:projects/monopoly_v1/monopoly.tmproj
 			</dict>
 			<key>columnSelection</key>
 			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
+<<<<<<< HEAD:projects/monopoly_v1/monopoly.tmproj
+			<integer>35</integer>
+=======
 			<integer>0</integer>
 			<key>selectFrom</key>
 			<dict>
@@ -94,6 +123,7 @@
 				<key>line</key>
 				<integer>18</integer>
 			</dict>
+>>>>>>> 55716ef70184547140bc0ecf7499ded13c84e51f:projects/monopoly_v1/monopoly.tmproj
 		</dict>
 		<key>Property.java</key>
 		<dict>
@@ -120,6 +150,10 @@
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
+<<<<<<< HEAD:projects/monopoly_v1/monopoly.tmproj
+	<string>{{58, 245}, {1087, 771}}</string>
+=======
 	<string>{{433, 161}, {920, 625}}</string>
+>>>>>>> 55716ef70184547140bc0ecf7499ded13c84e51f:projects/monopoly_v1/monopoly.tmproj
 </dict>
 </plist>
