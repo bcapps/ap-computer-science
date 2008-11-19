@@ -48,7 +48,7 @@ public class Sudoku
 	}
     public String toString()
     {
-          String boardOutput = "\n+-----+-----+-----+";
+          String boardOutput = "\n|-----+-----+-----|";
           for (int i = 0; i < ROWS; i++)
           {
                boardOutput+= "\n|";
@@ -65,7 +65,7 @@ public class Sudoku
                          boardOutput += " ";
                }
                if ((i + 1) % 3 == 0)//every third row
-                    boardOutput += "\n+-----+-----+-----+";
+                    boardOutput += "\n|-----+-----+-----|";
           }
           boardOutput += "\n\n";
 
