@@ -3,20 +3,22 @@
  * 11/24/2008
  * Description
  ****************************/
-public class Person implements Measurer
+public class Person
 {
 	private String name;
-	private int height;
+	private double height;
 	
-	public Person(String n, int h)
+	public Person(String n, double h)
 	{
 		name = n;
 		height = h;
 	}
-	public double measure(Object anObject)
+	public double getHeight()
 	{
-	    Rectangle aRectangle = (Rectangle) anObject;
-	    double area = aRectangle.getWidth() * aRectangle.getHeight();
-	    return area;
+		return height;
+	}
+	public String getName()
+	{
+		return name;
 	}
 }//end class

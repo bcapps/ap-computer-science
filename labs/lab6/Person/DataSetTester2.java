@@ -7,19 +7,20 @@ public class DataSetTester2
 {
    public static void main(String[] args)
    {
-      Measurer m = new RectangleMeasurer();
+      Measurer m = new PersonMeasurer();
 
       DataSet data = new DataSet(m);
 
-      data.add(new Rectangle(5, 10, 20, 30));
-      data.add(new Rectangle(10, 20, 30, 40));
-      data.add(new Rectangle(20, 30, 5, 15));
+      data.add(new Person("Matt Bischoff", 5.5));
+      data.add(new Person("Steve Ballmer", 8));
+      data.add(new Person("Ron Paul", 3.0));
 
-      System.out.println("Average area: " + data.getAverage());
-      System.out.println("Expected: 625");
+      System.out.println("Average height: " + data.getAverage()+" ft.");
+	  System.out.println("Expected: 5.5 ft.");
+	  
 
-      Rectangle max = (Rectangle) data.getMaximum();
-      System.out.println("Maximum area rectangle: " + max);
-      System.out.println("Expected: java.awt.Rectangle[x=10,y=20,width=30,height=40]");
+      Person max = (Person) data.getMaximum();
+      System.out.println("The tallest person is " +max.getName()+" at "+ 
+							max.getHeight()+" ft. tall.");
    }
 }
