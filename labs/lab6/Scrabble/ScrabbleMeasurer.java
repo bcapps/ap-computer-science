@@ -62,6 +62,7 @@ public class ScrabbleMeasurer implements Measurer
 				case 'P':
 					sum+= 3;
 					break;
+				case 'F':
 				default:
 					break;
 			}
