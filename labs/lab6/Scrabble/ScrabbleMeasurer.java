@@ -11,7 +11,6 @@ public class ScrabbleMeasurer implements Measurer
 		double sum = 0.0;
 		for(int i=0; i< word.length(); i++)
 		{
-			//if(word.charAt(i).equalsIgnoreCase('A'))
 			switch(word.charAt(i))
 			{
 				case 'A':
@@ -63,6 +62,29 @@ public class ScrabbleMeasurer implements Measurer
 					sum+= 3;
 					break;
 				case 'F':
+					sum+= 4;
+					break;
+				case 'V':
+					sum+= 4;
+					break;
+				case 'W':
+					sum+= 4;
+					break;
+				case 'K':
+					sum+= 5;
+					break;
+				case 'J':
+					sum+= 8;
+					break;
+				case 'X':
+					sum+= 8;
+					break;
+				case 'Q':
+					sum+= 10;
+					break;
+				case 'Z':
+					sum+= 10;
+					break;
 				default:
 					break;
 			}
