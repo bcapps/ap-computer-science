@@ -30,14 +30,18 @@ public class Monopoly
 		
 		while (!exit)
 		{
-			while(status !=1 && status !=2)
+			while(status!=1 || status !=2)
 			{
 				System.out.print("\n"+players.get(whoseTurn).getName()+", Enter 1 to roll or 2 to exit: ");
+				
 				try
 				{
-					status = in.nextInt();
+					status = Integer.parseInt(in.next());
 				}
-				catch(Exception e){}
+				catch(Exception e)
+				{
+					System.out.println("Not a Number, Please Retry.");
+				}
 			}//end while status
 			
 			if (status ==1)
@@ -217,7 +221,7 @@ public class Monopoly
 			int numPlayers = 0;
 			while(numPlayers<2)
 			{
-				System.out.println("\nPlease enter the number of players (2-6):");
+				System.out.print("\nPlease enter the number of players (2-6): ");
 				try
 				{
 					int num = Integer.parseInt(in.next());
