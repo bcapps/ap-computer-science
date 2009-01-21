@@ -17,26 +17,31 @@ public class Monopoly
 	public static MonopVars vars;
 	public static Scanner in;
 	
-	public static void main (String [] args)
+	public static void main (String [] args) throws IOException, BadDataException
 	{
 		boolean exit = false;
 		int whoseTurn = 0;
 		int status = 3;//for improperly entered nums
 		
-		try//I kept getting compile-time errors even though initializeData
-			//throws the exceptions.  I have no idea why.  This is a dirty fix.
-		{initializeData();}
-		catch(Exception e){}
+		initializeData();
 		
 		System.out.println(welcome());
 		receivePlayers();
 		
 		while (!exit)
 		{
-			while(status !=1 && status !=2)
+			while(status!=1 || status !=2)
 			{
 				System.out.print("\n"+players.get(whoseTurn).getName()+", Enter 1 to roll or 2 to exit: ");
-				status = in.nextInt();
+				
+				try
+				{
+					status = Integer.parseInt(in.next());
+				}
+				catch(Exception e)
+				{
+					System.out.println("Not a Number, Please Retry.");
+				}
 			}//end while status
 			
 			if (status ==1)
@@ -49,9 +54,11 @@ public class Monopoly
 			else if (status == 2)
 			{
 				System.out.println("\nGoodbye!");
-				System.out.println("You left Monopoly on space "+players.get(whoseTurn).getSpace()+
-									" with $"+players.get(whoseTurn).getMoney()+".");
-				System.out.println("Thanks for playing, bud.");
+				for(int i=0; i<players.size(); i++)
+					System.out.println(players.get(i).getName()+" left Monopoly on space "+players.get(i).getSpace()+
+										" with $"+players.get(i).getMoney()+".");
+										
+				System.out.println("Thanks for playing.\nI don't really mean that I'm just being polite.");
 				exit = true;
 			}
 			
@@ -62,14 +69,13 @@ public class Monopoly
 	{
 		int r1 = die.nextRoll();
 		int r2 = die.nextRoll();
-		int rolled = (r1+r2);
 		
 		if(!p.isInJail())
 		{
 			if(r1==r2)
 			{
 				p.addDoubles();
-				System.out.println("\nYou rolled DOUBLES of "+r1+" for a total of "+rolled);
+				System.out.println("\nYou rolled DOUBLES of "+r1+" for a total of "+(r1+r2));
 				if (p.getDoubles() == 3)
 				{
 					System.out.println("You rolled DOUBLES 3 times in a row.  This makes you a bad person.");
@@ -82,10 +88,10 @@ public class Monopoly
 			}
 			else
 			{
-				System.out.println("\nYou rolled a "+r1+" and a "+r2+", for a total of "+rolled);
+				System.out.println("\nYou rolled a "+r1+" and a "+r2+", for a total of "+(r1+r2));
 				p.resetDoubles();
 			}//end if and else
-			p.movePiece(rolled);
+			p.movePiece(r1+r2);
 		}//end if not in jail
 		else
 		{
@@ -215,7 +221,7 @@ public class Monopoly
 			int numPlayers = 0;
 			while(numPlayers<2)
 			{
-				System.out.println("\nPlease enter the number of players (2-6):");
+				System.out.print("\nPlease enter the number of players (2-6): ");
 				try
 				{
 					int num = Integer.parseInt(in.next());
