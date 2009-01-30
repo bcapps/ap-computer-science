@@ -3,23 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>java/labs/lab7/Exceptions/Exceptions.java</string>
+	<string>FileIO/FileIO.java</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>Exceptions/Exceptions.java</string>
+			<string>FileIO/FileIO.java</string>
 			<key>lastUsed</key>
-			<date>2009-01-29T14:33:21Z</date>
+			<date>2009-01-29T14:55:19Z</date>
 			<key>selected</key>
 			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Exceptions/Exceptions.java</string>
+			<key>lastUsed</key>
+			<date>2009-01-29T14:55:19Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>java/labs/lab7/Exceptions/Exceptions.java</key>
+		<key>Exceptions/Exceptions.java</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -33,14 +39,29 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>FileIO/FileIO.java</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
+				<key>line</key>
+				<integer>35</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>java/labs/lab7/Exceptions/Exceptions.java</string>
+		<string>Exceptions/Exceptions.java</string>
+		<string>FileIO/FileIO.java</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{290, 189}, {981, 650}}</string>
+	<string>{{185, 113}, {981, 650}}</string>
 </dict>
 </plist>

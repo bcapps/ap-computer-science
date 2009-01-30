@@ -3,42 +3,54 @@
  * 01/29/2009
  * FileIO
  ****************************/
+import java.util.*;
+import java.io.*;
+
 public class FileIO
 {
-	private int chars, nums, words=0;
+	private static int chars, words, lines=0;
 	public static void main(String[] args)
-	      throws FileNotFoundException
+	      throws FileNotFoundException, IOException
 	{
 		boolean keepGoing = true;
-	 	Scanner in = new Scanner(System.in);
+	 	Scanner fileName = new Scanner(System.in);
 		while(keepGoing)
 		{
 	    	System.out.print("Input file: ");
-	    	String inputFileName = in.next();
-
-	    	FileReader reader = new FileReader(inputFileName);
+	    	String inputFileName = fileName.next();
+			FileReader reader = null;
+	
 			try
 			{
+				reader = new FileReader(inputFileName);
 				Scanner in = new Scanner(reader);
 				readData(in);
+				System.out.println("Total chars: "+chars+" words: "+words+" lines: "+lines);
 			}
-	    	finally
+			catch(Exception e)
 			{
-	    		int lineNumber = 1;
+				System.out.println("ERROR");
+				keepGoing= false;
 			}
-
-	    	while (in.hasNextLine())
-	    	{
-	       		String line = in.nextLine();
-	       		out.println("/* " + lineNumber + " */ " + line);
-	       		lineNumber++;
-	    	}
+			finally
+			{
+				if (reader!=null)
+					reader.close();
+			}
 		}
-
-	    out.close();
 	}
-	public void readData(Scanner in)
+	public static void readData(Scanner in)
 	{
-		
+		while (in.hasNextLine())
+    	{
+       		String line = in.nextLine();
+			lines++;
+       		chars+= line.toCharArray().length;
+			String[] wordArray = line.split(" ");//splits by spaces
+			
+			for(int i = 0; i <wordArray.length;i++)//checks for extra spaces b4 adding words
+				if(!wordArray[i].equals(" "))
+					words++;
+    	}
 	}
 }//end class
