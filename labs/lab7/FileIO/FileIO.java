@@ -9,6 +9,7 @@ import java.io.*;
 public class FileIO
 {
 	private static int chars, words, lines=0;
+	
 	public static void main(String[] args)
 	      throws FileNotFoundException, IOException
 	{
@@ -37,7 +38,7 @@ public class FileIO
 				if (reader!=null)
 					reader.close();
 			}
-		}
+		}//end while
 	}
 	public static void readData(Scanner in)
 	{

@@ -10,7 +10,7 @@
 			<key>filename</key>
 			<string>FileIO/FileIO.java</string>
 			<key>lastUsed</key>
-			<date>2009-01-29T14:55:19Z</date>
+			<date>2009-02-02T14:43:03Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -18,7 +18,7 @@
 			<key>filename</key>
 			<string>Exceptions/Exceptions.java</string>
 			<key>lastUsed</key>
-			<date>2009-01-29T14:55:19Z</date>
+			<date>2009-02-02T14:43:03Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
@@ -37,21 +37,21 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 		<key>FileIO/FileIO.java</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>2</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>35</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>2</integer>
+			<integer>23</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
@@ -62,6 +62,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{185, 113}, {981, 650}}</string>
+	<string>{{39, 175}, {981, 650}}</string>
 </dict>
 </plist>
