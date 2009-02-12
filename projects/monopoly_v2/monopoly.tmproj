@@ -10,7 +10,7 @@
 			<key>filename</key>
 			<string>Monopoly.java</string>
 			<key>lastUsed</key>
-			<date>2009-01-19T22:51:10Z</date>
+			<date>2009-01-20T22:22:57Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -54,14 +54,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>46</integer>
+				<integer>23</integer>
 				<key>line</key>
-				<integer>148</integer>
+				<integer>21</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>100</integer>
+			<integer>17</integer>
 		</dict>
 		<key>Player.java</key>
 		<dict>
