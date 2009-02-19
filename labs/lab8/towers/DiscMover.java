@@ -1,3 +1,6 @@
+/*
+ * Brian Capps
+ */
 public class DiscMover
 {
    //Attributes to be declared:
