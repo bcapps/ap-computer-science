@@ -183,9 +183,7 @@ public class TowersOfHanoi extends Applet implements Runnable, KeyListener
     * puzzle and animation of the solution.
     */
    public void run()
-   {
-		System.out.println("HERE, RUN");
-		
+   {	
       //All the variables help in the animation process
       DiscMove nextMove;
       Tower from, to;
@@ -196,12 +194,8 @@ public class TowersOfHanoi extends Applet implements Runnable, KeyListener
        * HERE IS WHERE THE RECURSION TAKES PLACE TO SOLVE THE PUZZLE 
        */
       DiscMover mover = new DiscMover(0, 2, numDiscs);
-	System.out.println("BEFORE WHILE LOOP");
       while (mover.hasMoreMoves())
-	{
          moves.add (mover.nextMove());
-		System.out.println("IN WHILE LOOPAFTER NEXTMOVE");
-	}
 		
       
       

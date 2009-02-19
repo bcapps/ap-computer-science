@@ -36,7 +36,7 @@ public class DiscMover
    public boolean hasMoreMoves()
    {
       //return true or false if the state is equal to DONE
-		return state != DONE;
+		return (state != DONE);
    }
    
    
@@ -60,7 +60,7 @@ public class DiscMover
 		{
 			state = AFTER_LARGEST;
 			int other = 3 - towerTo - towerFrom;
-			smallerMover = new DiscMover (towerFrom, other, numDiscs - 1);
+			smallerMover = new DiscMover (other, towerTo, numDiscs - 1);
 			return new DiscMove(towerFrom, towerTo);
 		}
         //Set the state to AFTER_LARGEST
@@ -78,13 +78,7 @@ public class DiscMover
 			else
 				state = DONE;
 		}
-      
-      //Finally: If  the 'smallerMove' DiscMover does NOT have more moves
-        //if the state is BEFORE_LARGEST
-          //set the state to LARGEST
-        //else
-          //set the state to DONE
-        //return the DiscMove you initialized on line 41
+		
       	return move;
    }//end nextMove method
    
