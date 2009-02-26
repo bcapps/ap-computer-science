@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class QuickSorter
 {
@@ -15,12 +16,17 @@ public class QuickSorter
       sort(0, a.size() - 1);
    }
 
-   public void sort(int from, int to)
+   public void sortDescending(int from, int to)
    {
       if (from >= to) return;
       int p = partition(from, to);
-      sort(from, p);
-      sort(p + 1, to);
+      sortDescending(from, p);
+      sortDescending(p + 1, to);
+   }
+	public void sortAscending(int from, int to)
+   {
+      sortDescending(from, to);
+		Collections.reverse(a);
    }
 
    private int partition(int from, int to)

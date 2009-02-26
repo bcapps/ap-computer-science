@@ -4,12 +4,20 @@ public class QuickSortDemo
 {  
    public static void main(String[] args)
    {  
-      int[] a = ArrayUtil.randomIntArray(20, 100);
-      System.out.println(Arrays.toString(a));
+      ArrayList<Comparable> a = new ArrayList<Comparable>();
+		a.add("a");
+		a.add("c");
+		a.add("b");
+		a.add("f");
+		a.add("d");
 
-      QuickSorter sorter = new QuickSorter(a);
-      sorter.sort();
-      System.out.println(Arrays.toString(a));
+      System.out.println(a);
+
+      SelectionSorter sorter = new SelectionSorter(a);
+      sorter.sortAscending();
+      System.out.println(a);
+		sorter.sortDescending();
+		System.out.println(a);
    }
 }
 
