@@ -19,9 +19,11 @@ public class SelectionSortDemo
       System.out.println(a);
 		
       SelectionSorter sorter = new SelectionSorter(a);
-      sorter.sort();
-
+      sorter.sortAscending();
       System.out.println(a);
+		sorter.sortDescending();
+		System.out.println(a);
+		
    }
 }
 

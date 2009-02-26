@@ -18,7 +18,15 @@ public class SelectionSorter
    /**
       Sorts the array managed by this selection sorter.
    */
-   public void sort()
+   public void sortAscending()
+   {  
+      for (int i = 0; i < a.size() - 1; i++)
+      {  
+         int maxPos = maxPosition(i);
+         swap(maxPos, i);
+      }
+   }
+	public void sortDescending()
    {  
       for (int i = 0; i < a.size() - 1; i++)
       {  
@@ -39,6 +47,13 @@ public class SelectionSorter
       for (int i = from + 1; i < a.size(); i++)
          if (a.get(i).compareTo(a.get(minPos))<0) minPos = i;
       return minPos;
+   }
+	private int maxPosition(int from)
+   {  
+      int maxPos = from;
+      for (int i = from + 1; i < a.size(); i++)
+         if (a.get(i).compareTo(a.get(maxPos))>0) maxPos = i;
+      return maxPos;
    }
 
    /**
