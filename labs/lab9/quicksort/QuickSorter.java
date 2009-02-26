@@ -1,8 +1,10 @@
+import java.util.ArrayList;
+
 public class QuickSorter
 {
-   public QuickSorter(int[] anArray)
+   public QuickSorter(ArrayList<Comparable> aList)
    {
-      a = anArray;
+      a = aList;
    }   
 
    /**
@@ -23,13 +25,13 @@ public class QuickSorter
 
    private int partition(int from, int to)
    {
-      int pivot = a[from];
+      Comparable pivot = a.get(from);
       int i = from - 1;
       int j = to + 1;
       while (i < j)
       {
-         i++; while (a[i] < pivot) i++;
-         j--; while (a[j] > pivot) j--;
+         i++; while (a.get(i).compareTo(pivot)<0) i++;
+         j--; while (a.get(j).compareTo(pivot)>0) j--;
          if (i < j) swap(i, j); 
       }
       return j;
@@ -42,10 +44,10 @@ public class QuickSorter
    */
    private void swap(int i, int j)
    {
-      int temp = a[i];
-      a[i] = a[j];
-      a[j] = temp;
+      Comparable temp = a.get(i);
+      a.set(i, a.get(j));
+      a.set(j, temp);
    }
 
-   private int[] a;
+   private ArrayList<Comparable> a;
 }
