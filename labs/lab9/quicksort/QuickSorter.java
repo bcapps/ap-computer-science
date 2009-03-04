@@ -11,21 +11,21 @@ public class QuickSorter
    /**
       Sorts the array managed by this merge sorter
    */
-   public void sort()
+   public void sortDescending()
    {  
       sort(0, a.size() - 1);
    }
 
-   public void sortDescending(int from, int to)
+   public void sort(int from, int to)
    {
       if (from >= to) return;
       int p = partition(from, to);
-      sortDescending(from, p);
-      sortDescending(p + 1, to);
+      sort(from, p);
+      sort(p + 1, to);
    }
-	public void sortAscending(int from, int to)
+	public void sortAscending()
    {
-      sortDescending(from, to);
+      sortDescending();
 		Collections.reverse(a);
    }
 

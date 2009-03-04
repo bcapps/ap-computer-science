@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class QuickSortDemo
 {  
@@ -13,11 +13,11 @@ public class QuickSortDemo
 
       System.out.println(a);
 
-      SelectionSorter sorter = new SelectionSorter(a);
+      QuickSorter sorter = new QuickSorter(a);
       sorter.sortAscending();
       System.out.println(a);
-		sorter.sortDescending();
-		System.out.println(a);
+	  sorter.sortDescending();
+	  System.out.println(a);
    }
 }
 
