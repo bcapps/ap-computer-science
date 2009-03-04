@@ -2,15 +2,18 @@
    This class sorts an array, using the insertion sort 
    algorithm
 */
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class InsertionSorter
 {
    /**
       Constructs an insertion sorter.
       @param anArray the array to sort
    */   
-   public InsertionSorter(int[] anArray)
+   public InsertionSorter(ArrayList<Comparable> aList)
    {
-      a = anArray;
+      a = aList;
    }
 
    /**
@@ -18,12 +21,12 @@ public class InsertionSorter
    */      
    public void sort()
    {
-      for (int i = 1; i < a.length; i++)
+      for (int i = 1; i < a.size(); i++)
       {
-         int next = a[i];
+         Comparable next = a.get(i);
          // Move all larger elements up
          int j = i;
-         while (j > 0 && a[j - 1] > next)
+         while (j > 0 && a.get(j-1).compareTo(next)>0))
          {
             a[j] = a[j - 1];
             j--;
@@ -33,5 +36,5 @@ public class InsertionSorter
       }
    }
    
-   private int[] a;
+   private ArrayList<Comparable> a;
 }
