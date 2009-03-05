@@ -13,11 +13,16 @@ public class MergeSorter
    {
       a = aList;
    }
+	public void sortAscending()
+	{
+		sortDescending();
+		Collections.reverse(a);
+	}
    
    /**
       Sorts the array managed by this merge sorter.
    */
-   public void sort()
+   public void sortDescending()
    {  
       if (a.size() <= 1) return;
       ArrayList<Comparable> first = new ArrayList<Comparable>();
@@ -28,8 +33,8 @@ public class MergeSorter
 				a.add(a.get(i));
       MergeSorter firstSorter = new MergeSorter(first);
       MergeSorter secondSorter = new MergeSorter(second);
-      firstSorter.sort();
-      secondSorter.sort();
+      firstSorter.sortDescending();
+      secondSorter.sortDescending();
       merge(first, second);
    }
 
