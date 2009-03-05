@@ -1,15 +1,17 @@
 /**
    This class sorts an array, using the merge sort algorithm.
 */
+import java.util.*;
+
 public class MergeSorter
 {
    /**
       Constructs a merge sorter.
       @param anArray the array to sort
    */
-   public MergeSorter(int[] anArray)
+   public MergeSorter(ArrayList<Comparable> aList)
    {
-      a = anArray;
+      a = aList;
    }
    
    /**
@@ -17,11 +19,13 @@ public class MergeSorter
    */
    public void sort()
    {  
-      if (a.length <= 1) return;
-      int[] first = new int[a.length / 2];
-      int[] second = new int[a.length - first.length];
-      System.arraycopy(a, 0, first, 0, first.length);
-      System.arraycopy(a, first.length, second, 0, second.length);
+      if (a.size() <= 1) return;
+      ArrayList<Comparable> first = new ArrayList<Comparable>();
+	  for(int i =0; i<a.size()/2; i++)
+			a.add(a.get(i));
+      ArrayList<Comparable> second = new ArrayList<Comparable>();
+		for(int i =0; i<a.size()-first.size(); i++)
+				a.add(a.get(i));
       MergeSorter firstSorter = new MergeSorter(first);
       MergeSorter secondSorter = new MergeSorter(second);
       firstSorter.sort();
@@ -35,7 +39,7 @@ public class MergeSorter
       @param first the first sorted array
       @param second the second sorted array
    */
-   private void merge(int[] first, int[] second)
+   private void merge(ArrayList<Comparable> first, ArrayList<Comparable> second)
    {  
       // Merge both halves into the temporary array
 
@@ -48,16 +52,16 @@ public class MergeSorter
 
       // As long as neither iFirst nor iSecond past the end, move
       // the smaller element into a
-      while (iFirst < first.length && iSecond < second.length)
+      while (iFirst < first.size() && iSecond < second.size())
       {  
-         if (first[iFirst] < second[iSecond])
+         if (first.get(iFirst).compareTo(second.get(iSecond))<0)
          {  
-            a[j] = first[iFirst];
+            a.set(j, first.get(iFirst));
             iFirst++;
          }
          else
          {  
-            a[j] = second[iSecond];
+            a.set(j, second.get(iSecond));
             iSecond++;
          }
          j++;
@@ -67,11 +71,17 @@ public class MergeSorter
       // copies entries
 
       // Copy any remaining entries of the first array
-      System.arraycopy(first, iFirst, a, j, first.length - iFirst);
+		for(int i=iFirst; i<=first.size() - iFirst; i++)
+			a.set(j, first.get(i));
+			
+      //System.arraycopy(first, iFirst, a, j, first.length - iFirst);
       
       // Copy any remaining entries of the second half
-      System.arraycopy(second, iSecond, a, j, second.length - iSecond);
+		for(int i=iSecond; i<=second.size() - iSecond; i++)
+			a.set(j, second.get(i));
+			
+      //ystem.arraycopy(second, iSecond, a, j, second.length - iSecond);
    }
 
-   private int[] a;
+   private ArrayList<Comparable> a;
 }
