@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>currentDocument</key>
+	<string>RandomInts2.java</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>RandomInts2.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-28T13:45:25Z</date>
+			<date>2009-03-04T00:18:14Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -16,22 +18,71 @@
 			<key>filename</key>
 			<string>RandomInts1.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-28T13:45:21Z</date>
+			<date>2009-03-04T00:18:12Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>StringList.java</string>
 			<key>lastUsed</key>
-			<date>2008-10-28T13:45:25Z</date>
+			<date>2009-03-04T00:18:14Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
-	<dict/>
+	<dict>
+		<key>RandomInts1.java</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>RandomInts2.java</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>StringList.java</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>RandomInts1.java</string>
+		<string>RandomInts2.java</string>
+		<string>StringList.java</string>
+	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{378, 210}, {1032, 668}}</string>
+	<string>{{247, 256}, {1032, 668}}</string>
 </dict>
 </plist>

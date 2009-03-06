@@ -2,99 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>currentDocument</key>
-	<string>Bank/Bank.java</string>
 	<key>documents</key>
-	<array>
-		<dict>
-			<key>filename</key>
-			<string>Bank/Bank.java</string>
-			<key>lastUsed</key>
-<<<<<<< HEAD:labs/lab7/lab7.tmproj
-			<date>2009-02-02T14:43:03Z</date>
-=======
-			<date>2009-02-06T04:57:58Z</date>
->>>>>>> c6ce8c9f6ba84390deafc2dfd7a29dd61dbc6ace:labs/lab7/lab7.tmproj
-			<key>selected</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>filename</key>
-			<string>FileIO/FileIO.java</string>
-			<key>lastUsed</key>
-			<date>2009-02-06T04:57:58Z</date>
-		</dict>
-		<dict>
-			<key>filename</key>
-			<string>Exceptions/Exceptions.java</string>
-			<key>lastUsed</key>
-<<<<<<< HEAD:labs/lab7/lab7.tmproj
-			<date>2009-02-02T14:43:03Z</date>
-=======
-			<date>2009-02-06T04:32:00Z</date>
->>>>>>> c6ce8c9f6ba84390deafc2dfd7a29dd61dbc6ace:labs/lab7/lab7.tmproj
-		</dict>
-	</array>
+	<array/>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
-	<dict>
-		<key>Bank/Bank.java</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>6</integer>
-				<key>line</key>
-				<integer>3</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>Exceptions/Exceptions.java</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>3</integer>
-				<key>line</key>
-				<integer>1</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>3</integer>
-		</dict>
-		<key>FileIO/FileIO.java</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>23</integer>
-		</dict>
-	</dict>
-	<key>openDocuments</key>
-	<array>
-		<string>Bank/Bank.java</string>
-		<string>Exceptions/Exceptions.java</string>
-		<string>FileIO/FileIO.java</string>
-	</array>
+	<dict/>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-<<<<<<< HEAD:labs/lab7/lab7.tmproj
-	<string>{{39, 175}, {981, 650}}</string>
-=======
-	<string>{{538, 258}, {981, 650}}</string>
->>>>>>> c6ce8c9f6ba84390deafc2dfd7a29dd61dbc6ace:labs/lab7/lab7.tmproj
+	<string>{{140, 285}, {894, 624}}</string>
 </dict>
 </plist>
